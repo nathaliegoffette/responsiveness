@@ -1,0 +1,93 @@
+
+h2{
+    text-align: left;
+    margin: 0px;
+}
+
+div{
+    margin: 0px 80px;
+}
+
+
+@media screen and (width < 480px) {
+    body { 
+        background-color: red;
+        font-size:16px;
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        
+    
+    }
+/*Exercice 2 masqué pour l'exercice 4
+    #small {
+        display:flex;
+        flex-direction: column;
+        text-align: left;   
+    }
+
+    #medium { display:none;}
+
+    #large { display:none;}*/
+}
+
+
+@media screen and (480px <= width <= 1024px) {
+    body { 
+        background-color: green;
+        font-size:24px;
+        
+    }
+
+
+    #small{
+        flex-basis: 33%;
+        
+    }
+
+    #medium{
+        
+        flex-basis:66%;
+    }
+
+    #large{
+        
+        flex-basis:100%;
+    }
+
+    
+
+
+    /*Exercice 2 masqué pour l'exercice 4
+    #small { display:none;}
+
+    #medium {
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #large { display:none;}*/
+  }
+
+
+@media screen and (width > 1024px) {
+    body { 
+        background-color: blue;
+        font-size:32px;
+        display: flex;
+        flex-direction: row;
+        text-align: justify;
+    }
+
+    /*Exercice 2 masqué pour l'exercice 4
+    #small { display:none;}
+
+    #medium { display:none;}
+
+    #large {
+        display:flex;
+        flex-direction: column;
+    }*/
+}
+
